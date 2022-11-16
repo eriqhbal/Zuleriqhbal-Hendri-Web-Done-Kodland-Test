@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Zuleriqhbal Hendri Test</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Link Font Style -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Varela+Round&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        font-family: "Varela Round", sans-serif;
+      }
+
+      .Header-Section {
+        background-image: url("./Assets/Images/background.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding: 20px;
+        height: 115vh;
+        object-fit: cover;
+        position: relative;
+      }
+
+      .Header-Section h2 {
+        position: absolute;
+        margin: 25px 30px;
+      }
+
+      .item-menu ul {
+        position: absolute;
+        list-style-type: none;
+        width: 20%;
+        right: 100px;
+        top: 20px;
+        padding: 15px;
+        display: flex;
+        justify-content: space-between;
+      }
+
+      ul li a {
+        text-decoration: none;
+        color: black;
+      }
+
+      #textHero {
+        position: absolute;
+        margin: 170px 10px;
+      }
+
+       #textHero .Pop-It {
+        font-size: 135px;
+        font-family: "Alfa Slab One", cursive;
+        color: white;
+      }
+
+      #textHero .Hero-word {
+         width: 45%;
+         color: white;
+         margin-top: 10px;
+      }
+
+      #textHero .Button-Start {
+         background-color: #cbf3f0;
+         padding: 15px;
+         margin-top: 15px;
+         width: 20%;
+         border:none;
+         border-radius: 4px;
+      }
+
+      #Section-About {
+         padding: 100px 0;
+         display: flex;
+         align-items: center;
+         flex-direction: column;
+      }
+
+      #Section-About .Text-About {
+         width: 50%;
+         margin-top: 10px;
+         text-align: center;
+      }
+
+      #Items-Learn {
+        background-color: #cbf3f0;
+        padding: 100px 20px;
+        text-align: center;
+      }
+
+      #items-learn h2 {
+        margin-top: 0;
+      }
+      
+    #Items-Learn .cards-item {
+      margin-top: 30px;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    #Items-Learn .cards-item .card {
+      flex-direction: column;
+      width: 50%;
+    }
+
+    #Items-Learn .cards-item .card img {
+      margin: auto auto 20px;  
+      width: 50%;
+    }
+
+     #Items-Learn .cards-item .card button {
+      margin-top: 15px;
+      width: 45%;
+      padding: 10px;
+      background-color: #ffbf69;
+      border: none;
+      border-radius: 4px;
+      font-weight: bold;
+     } 
+
+     #benefit-section {
+      background-image: url("/Assets/Images/bg-grid.png");
+      background-repeat: no-repeat;
+      background-size: contain;
+      padding: 43px;
+      height: 60vh;
+      object-fit: cover;
+     }
+
+     #benefit-section .image-benefit {
+      width: 35%;
+      size: 20px;
+      float: right;
+      border-radius: 4px;
+     }
+
+     #benefit-section .explain-section {
+      margin: 65px 0;
+      width: 50%;
+     }
+
+     #footer-section {
+      background-color: #333333;
+      padding: 40px;
+      color:white;
+      position: relative;
+     }
+
+     #footer-section .footer-container ul {
+        display: flex;
+        width: 50%;
+        right:20px;
+        list-style-type: none;
+        justify-content: space-between;
+        position: absolute;
+        right: 50px;
+        top:50px;
+     }
+
+    </style>
+  </head>
+
+  <body>
+    <header class="Header-Section">
+      <h2>Zuleriqhbal Hendri</h2>
+      <div class="item-menu">
+        <ul>
+          <li><a href="">About</a></li>
+          <li><a href="">Items</a></li>
+          <li><a href="">Benefit</a></li>
+        </ul>
+      </div>
+
+      <div id="textHero">
+        <p class="Pop-It">POP IT!</p>
+        <p class="Hero-word">
+          Selamat Datang di Website Zuleriqhbal Hendri Kids, di website ini kita akan belajar bersama untuk
+          membuat suatu website.
+        </p>
+        <button class="Button-Start">Mari Belajar</button>
+      </div>
+    </header>
+
+    <section id="Section-About">
+      <h1>Apa itu Zuleriqhbal Hendri Learn ?</h1>
+      <p class="Text-About">Zuleriqhbal Hendri Learn adalah platform belajar khusus anak-anak yang mana akan membuat siswa-siswi akan mampu mendevelop suatu website yang mereka inginkan</p>
+    </section>
+
+    <section id="Items-Learn">
+      <h2>This Is My Item</h2>
+      <div class="cards-item">
+         <div class="card">
+            <img src="./Assets/images/square.png" alt="/">
+            <h2>Gambar Square</h2>
+            <button>Press</button>
+         </div>
+          <div class="card">
+            <img src="./Assets/images/amongus.png" alt="/">
+            <h2>Gambar Square</h2>
+            <button>Press</button>
+         </div>
+          <div class="card">
+            <img src="./Assets/images/round.png" alt="/">
+            <h2>Gambar Square</h2>
+            <button>Press</button>
+         </div>
+      </div>
+    </section>
+
+    <section id="benefit-section">
+      <img class="image-benefit" src="./Assets//Images/photo.jpg" alt="">
+      <div class="explain-section">
+        <h1>What Is Benefit Your Section</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dui ex, aliquam vitae libero vitae, eleifend aliquet sem. Nullam accumsan porttitor euismod. Praesent nec imperdiet erat, in rutrum neque. Nullam convallis nisl eget ante vulputate, ut sodales diam egestas. Vivamus ac gravida eros. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Proin convallis placerat felis, quis rhoncus est rutrum sed. </p>
+      </div>
+    </section>
+
+    <footer id="footer-section">
+      <div class="footer-container">
+        <h1>Zuleriqhbal Hendri</h1>
+        <ul>
+          <li>About</li>
+          <li>Items</li>
+          <li>Features</li>
+          <li>Others</li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>
